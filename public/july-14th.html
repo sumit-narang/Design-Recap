@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Design Recap | Weekly design news and articles</title>
+  <meta name="description" content="Weekly design news and articles">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="image/favicon/DR-32*32.png" sizes="32x32">
+  <link rel="icon" href="image/favicon/DR-57*57.png" sizes="57x57">
+  <link rel="icon" href="image/favicon/DR-76*76.png" sizes="76x76">
+  <link rel="icon" href="image/favicon/DR-96*96.png" sizes="96x96">
+  <link rel="icon" href="image/favicon/DR-128*128.png" sizes="128x128">
+  <link rel="icon" href="image/favicon/DR-192*192.png" sizes="192x192">
+  <link rel="icon" href="image/favicon/DR-228*228.png" sizes="228x228">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172304621-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-172304621-1');
+  </script>
+
+</head>
+<body>
+  <main class="main">
+    <section class="hero-image">
+      <div>
+        <h1>DESIGN RECAP</h1>
+        <p>Weekly design articles and notes</p>
+      </div>
+    </section>
+    
+    <nav class="date-nav">
+      <ul>
+        <li class="date"><a href="index.html">21 July 2020</a></li>
+        <li class="date date-active"><a href="july-14th.html">14 July 2020</a></li>
+        <li class="date"><a href="july-7th.html">7 July 2020</a></li>
+        <li class="date"><a href="july-1st.html">1 July 2020</a></li>
+      </ul>
+    </nav>
+
+    <section class="all-articles">
+      <div class="col1-articles">
+        <article class="article-card">
+          <h3>Résumé Templates</h3>
+          <p>I've had several close friends face unexpected, difficult layoffs, and while super small, I wanted to try to do something to help.</p>
+          <a href="https://www.figma.com/community/file/827002814255067977" target="_blank">Joey Banks <img alt="click link" src="image/click-link.svg"></a>
+        </article>
+        <article class="article-card">
+          <h3>How to estimate the ROI of design work</h3>
+          <p>According to a February 2020 McKinsey study, 66% of CEOs don’t understand what their senior designers do. While many business...</p>
+          <a href="https://www.invisionapp.com/inside-design/estimate-roi-design-work/" target="_blank">Alen Faljic <img alt="click link" src="image/click-link.svg"></a>
+        </article>
+        <article class="article-card">
+          <h3>A fundamental truth of user-centered design that is simple, yet forgotten</h3>
+          <p>I started developing these frameworks several years ago and have since whiteboarded them hundreds of times, each time...</p>
+          <a href="https://uxdesign.cc/a-fundamental-truth-of-user-centered-design-that-is-simple-yet-forgotten-d65d17265257" target="_blank">Josh LaMar <img alt="click link" src="image/click-link.svg"></a>
+        </article>
+        <article class="article-card">
+          <h3>The UI checklist you need to consistently ship quality design</h3>
+          <p>Over the past few months, my design team at StreetEasy has started experimenting in adding a “design buddy”...</p>
+          <a href="https://uxdesign.cc/the-checklist-streeteasy-uses-to-consistently-ship-quality-design-b30713f4b6b6" target="_blank">Lanya Olmsted Suen <img alt="click link" src="image/click-link.svg"></a>
+        </article>    
+      </div>
+      <div class="col2-articles">
+        <article class="article-card">
+          <h3>The rise of superpower tech</h3>
+          <p>Back in Jan 2019, my Weekend Fund teammate Ryan Hoover wrote an article on The Rise of “No Code”. Dreamweaver and similar tools...</p>
+          <a href="https://medium.com/@vedikajain1/the-rise-of-superpower-tech-225759dc86d0" target="_blank">Vedika Jain <img alt="click link" src="image/click-link.svg"></a>
+        </article>
+        <article class="article-card">
+          <h3>The Guide To Design</h3>
+          <p>There are no magic formulas in design. But if you are looking for guidance, here's a starting point.</p>
+          <a href="https://start.uxdesign.cc/">Made by UX Collective <img alt="click link" src="image/click-link.svg"></a>
+        </article>
+        <article class="article-card">
+          <h3>Questions I ask when forming bets: </h3>
+          <p>- What might cause this to fail - market fit, desireability, dependencies, capabilities, strategic adoption?<br>- Desirability vs investment<br>- How might we define and mitigate the degradation of UX caused by dependencies in data or AI?</p>
+          <a href="https://twitter.com/hpdailyrant/status/1281259492080889862" target="_blank">Hà Phan <img alt="click link" src="image/click-link.svg"></a>
+        </article>
+        <article class="article-card">
+          <h3>Tabler Icons</h3>
+          <p>558 Fully customizable free SVG icons. (MIT license)</p>
+          <a href="https://tablericons.com/" target="_blank">Paweł Kuna & Csaba Kissi <img alt="click link" src="image/click-link.svg"></a>
+        </article>
+      </div>
+    </section>
+    
+    <div class="mode">
+      <img src="moon.svg" alt="click for dark mode" class="dark-mode">
+      <img src="sun.svg" alt="click for normal mode" class="normal-mode">
+    </div>
+  </main>
+
+  <script>
+  var normal_mode = document.querySelector('.normal-mode');
+  var dark_mode = document.querySelector('.dark-mode');
+  var main_body = document.querySelector('.main');
+
+  //when moon is clicked
+  var dark_mode = document.querySelector('.dark-mode');
+  dark_mode.addEventListener("click", darkMode);
+  function darkMode() {
+    dark_mode.classList.add("moveMoonDown");
+    normal_mode.classList.add("moveSunUp");
+    main_body.classList.add("main-light-mode");
+  }
+  
+  //when sun is clicked
+  normal_mode.addEventListener("click", normalMode);
+  function normalMode() {
+    dark_mode.classList.remove("moveMoonDown");
+    normal_mode.classList.remove("moveSunUp");
+    main_body.classList.remove("main-light-mode");
+  }
+  </script>
+</body>
+</html>
