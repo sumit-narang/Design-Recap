@@ -229,6 +229,12 @@ body {
   .main .date-nav {
     width: 400px;
   }
+  .main .date-nav ul {
+    flex-wrap: wrap;
+  }
+  .main .date {
+    margin-left: 0;
+  }
 }
 
 @media(max-width: 600px) {
